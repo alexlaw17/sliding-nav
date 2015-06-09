@@ -7165,7 +7165,6 @@ h6 {
 .wrapper {
   position: relative;
   width: 100%;
-  height: 100%;
   background-color: #0e100e;
 }
 
@@ -7182,6 +7181,7 @@ h6 {
 .sliding-navbar-main {
   position: fixed;
   left: -200px;
+  z-index: 5;
   width: 200px;
   height: 100%;
   background-color: #222522;
@@ -7251,4 +7251,25 @@ h6 {
   color: #27edb1;
   background-color: #0f1114;
   transition: all 300ms;
+}
+
+/*
+--------------------------------------------------------------------------
+ Dummy Text
+--------------------------------------------------------------------------
+*/
+
+.main-content {
+  padding-top: 100px;
+}
+
+.main-content h1 {
+  margin-bottom: 20px;
+  color: #cccccc;
+}
+
+.main-content p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #cccccc;
 }

@@ -46,7 +46,6 @@ h6 {
 
 .wrapper {
     width: 100%;
-    height: 100%;
     position: relative;
     background-color: darken(@black, 8%);
 }
@@ -67,6 +66,7 @@ h6 {
     background-color: @black;
 	left: -200px;
 	transition: all 300ms;
+	z-index: 5;
 
 	.sliding-navbar-toggle {
 	    position: absolute;
@@ -127,5 +127,25 @@ h6 {
 				}
 			}
 		}
+	}
+}
+
+/*
+--------------------------------------------------------------------------
+ Dummy Text
+--------------------------------------------------------------------------
+*/
+
+.main-content {
+	padding-top: 100px;
+
+	h1 {
+		color: @lightgray;
+		margin-bottom: 20px;
+	}
+	p {
+		color: @lightgray;
+		font-size: 16px;
+		line-height: 30px;
 	}
 }
